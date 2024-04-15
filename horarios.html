@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jenisse Reidel">
+    <meta name="description" content="Proyecto de práctica">
+    <title>Yoga Life</title>
+    <style>
+        body {
+            font-family: "Helvetica", "Helvetica", monospace;
+            background: linear-gradient(to right, rgb(184, 217, 247), rgb(255, 255, 255));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.2rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yoga Life</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a class="active" href="horarios.html">Horarios</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <h2>Horario</h2>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: #b9b9b9;">
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+    
+            <th>&nbsp;</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+    
+            <tr>
+                <td>18 a 19hs</td>
+                <td>Principiantes</td>
+                <td>Avanzado</td>
+                <td>Principiantes</td>
+                <td>Avanzado</td>
+                <td>Principiantes</td>
+            </tr>
+            <tr>
+                <td>19 a 20hs</td>
+                <td>Intermedio</td>
+                <td>Principiantes</td>
+                <td>Intermedio</td>
+                <td>Principiantes</td>
+                <td>Intermedio</td>
+            </tr>
+            <tr>
+                <td>20 a 21hs</td>
+                <td>Avanzado</td>
+                <td>Intermedio</td>
+                <td>Avanzado</td>
+                <td>Intermedio</td>
+                <td>Avanzado</td>
+            </tr>
+        </table>
+    </div>
+    
+    <p style="margin: 20px;"><b>Principiantes: </b><br>
+        Clase de Introducción al Yoga: Perfecta para aquellos que son nuevos en el yoga o que desean repasar los fundamentos. Esta clase se centra en las posturas básicas (asanas), la respiración consciente (pranayama) y la alineación adecuada. Los estudiantes aprenderán a construir una base sólida para su práctica de yoga y a familiarizarse con el flujo entre las posturas.</p>
+    <p style="margin: 20px;"><b>Intermedio:</b> <br>Vinyasa Flow Dinámico: Para aquellos que desean llevar su práctica al siguiente nivel, esta clase ofrece un flujo dinámico de posturas que se sincronizan con la respiración. Los estudiantes experimentarán secuencias fluidas que aumentan la fuerza, la flexibilidad y la concentración mental. Se introducirán variaciones más desafiantes de las posturas básicas, así como inversiones y equilibrios.</p>
+    <p style="margin: 20px;"><b>Avanzado:</b> <br>Ashtanga Yoga Avanzado: Diseñada para practicantes experimentados que buscan un desafío físico y mental más profundo, esta clase se basa en la tradición del Ashtanga Vinyasa Yoga. Se enfoca en una serie específica de posturas que se realizan en secuencia, aumentando en dificultad a medida que avanza la práctica. Los estudiantes trabajarán en la fluidez del movimiento, la fuerza muscular y la purificación interna a través de la práctica de bandhas y drishtis.</p>
+
+    <footer class="footer">
+        <p>Derechos Reservados &copy; 2024</p>
+    </footer>
+</body>
+</html>
